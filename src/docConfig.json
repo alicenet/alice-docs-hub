@@ -3,19 +3,19 @@
         {
             "name": "AliceNet Wallet",
             "url": "https://wallet-user.docs.alicenet.duckdns.org/",
-            "github": "http://github.com/MadBase/alice-wallet-user-docs"
+            "github": "https://github.com/MadBase/alice-wallet-user-docs"
         }
     ],
     "technical": [
         {
             "name": "AliceNetJs",
             "url": "https://madnetjs.docs.alicenet.duckdns.org/",
-            "github": "http://github.com/MadBase/MadNetJS"
+            "github": "https://github.com/MadBase/MadNetJS"
         },
         {
             "name": "AliceNet Wallet",
             "url": "https://wallet-technical.docs.alicenet.duckdns.org/",
-            "github": "http://github.com/MadBase/MadNetWallet-v2"
+            "github": "https://github.com/MadBase/MadNetWallet-v2"
         }
     ]
 }
