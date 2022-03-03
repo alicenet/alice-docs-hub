@@ -1,0 +1,21 @@
+{
+    "user": [
+        {
+            "name": "AliceNet Wallet",
+            "url": "N/A",
+            "github": "http://github.com/MadBase/MadNetWallet-v2"
+        }
+    ],
+    "technical": [
+        {
+            "name": "AliceNetJs",
+            "url": "https://madnetjs.docs.alicenet.duckdns.org/",
+            "github": "http://github.com/MadBase/MadNetJS"
+        },
+        {
+            "name": "AliceNet Wallet",
+            "url": "https://wallet-technical.docs.alicenet.duckdns.org/",
+            "github": "http://github.com/MadBase/MadNetWallet-v2"
+        }
+    ]
+}
