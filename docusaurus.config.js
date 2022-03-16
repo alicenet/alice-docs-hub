@@ -76,6 +76,12 @@ const config = {
         //     label: 'GitHub',
         //     position: 'right',
         //   },
+        {
+            type: 'dropdown',
+            position: 'right',
+            label: "Demo Apps",
+            items: []
+          },
           {
             type: 'dropdown',
             position: 'right',
@@ -138,12 +144,23 @@ const config = {
 
 // Add Documentation Configuration to Navigation && Footer
 const devDocIdx = config.themeConfig.navbar.items.map(e => (e.label)).indexOf("Technical Docs");
-const addItem = item => config.themeConfig.navbar.items[devDocIdx].items.push(item); 
+const appLinksIdx = config.themeConfig.navbar.items.map(e => (e.label)).indexOf("Demo Apps");
+const addItemToDocs = item => config.themeConfig.navbar.items[devDocIdx].items.push(item); 
+const addItemToDemoApps = item => config.themeConfig.navbar.items[appLinksIdx].items.push(item); 
+// Add technical doc links
 Object.keys(docConfig.technical).forEach(key => {
     let technicalDocObj = docConfig.technical[key];
-    addItem({
+    addItemToDocs({
         label: technicalDocObj.name,
         href: technicalDocObj.url
+    });
+})
+// Add demo app links
+Object.keys(docConfig.demoapps).forEach(key => {
+    let demoAppObj = docConfig.demoapps[key];
+    addItemToDemoApps({
+        label: demoAppObj.name,
+        href: demoAppObj.url
     });
 })
 
