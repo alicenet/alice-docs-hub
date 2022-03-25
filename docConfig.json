@@ -16,6 +16,11 @@
             "name": "HelloWorld - CRUD",
             "url": "https://crud.helloworld.alicenet.duckdns.org/",
             "github": "https://github.com/MadBase/madnet-hello-world"
+        },
+        {
+            "name": "HelloWorld - State Channels",
+            "url": "https://state.helloworld.alicenet.duckdns.org/",
+            "github": "https://github.com/MadBase/example-state-channel"
         }
     ]
 }
