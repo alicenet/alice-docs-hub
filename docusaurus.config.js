@@ -28,14 +28,13 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/MadBase/alice-docs-hub',
+                    editUrl: 'https://github.com/MadBase/alice-docs-hub/tree/main',
                     remarkPlugins: [math],
                     rehypePlugins: [katex]
                 },
                 blog: {
                     showReadingTime: true,
-                    editUrl:
-                        'https://github.com/MadBase/alice-docs-hub',
+                    editUrl:'https://github.com/MadBase/alice-docs-hub/tree/main',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
